@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+$font-family-sans-serif: "Inter", sans-serif;
+$enable-shadows: true;
+$enable-negative-margins: true;
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+$modo-oscuro: (
+  "fondo": #0d0f12,
+  "texto": #fff,
+  "secundario": #adb5bd,
+);
+
+.modo-oscuro {
+  background-color: map-get($modo-oscuro, "fondo");
+  color: map-get($modo-oscuro, "texto");
+}
