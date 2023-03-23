@@ -6,6 +6,16 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ .btn-mode{
+  background-color: white;
+  color: black
+ }
+
+ .btn-light{
+  background-color: black;
+  color: white;
+ }
 .svg-white {
   fill: white;
 }
