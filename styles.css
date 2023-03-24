@@ -7,15 +7,18 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
- .btn-mode{
+.btn-mode {
   background-color: white;
-  color: black
- }
+  color: black;
+}
+.btn-mode:hover {
+  color: black;
+}
 
- .btn-light{
+.btn-light {
   background-color: black;
   color: white;
- }
+}
 .svg-white {
   fill: white;
 }
