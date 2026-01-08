@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "npx http-server -p 8080 -o"
+  },
   "dependencies": {
     "bootstrap": "^5.2.3"
   }
