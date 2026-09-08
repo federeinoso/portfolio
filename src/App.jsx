@@ -1,7 +1,6 @@
 function App() {
   return (
     <main className="container px-4">
-      <div className="gradient-top" />
       {/* HEADER */}
       <header className="d-flex flex-column flex-md-row justify-content-md-between fw-bold fs-3 mt-5">
         <div className="d-flex flex-column flex-md-row">
