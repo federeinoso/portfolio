@@ -281,12 +281,12 @@ function App() {
             <span className="mb-3">
               engineered an operational management system for port logistics
               services, focusing on real-time data visualization and user
-              experience.
+              experience
             </span>
 
             <span className="mb-3">
               implemented driver documentation tracking and vehicle monitoring
-              dashboards with live data updates.
+              dashboards with live data updates
             </span>
             <span className="mb-3">
               designed and developed intuitive user interfaces for both internal
