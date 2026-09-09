@@ -278,11 +278,26 @@ function App() {
 
         <div className="d-flex flex-md-row flex-column row">
           <h4 className="spacing-0 col-md-8 d-flex flex-column fw-normal">
-            operative management system for port logistics services company,
-            providing access to real-time information, tracking of the drivers
-            documentation, control of personal and external vehicles
+            <span className="mb-3">
+              engineered an operational management system for port logistics
+              services, focusing on real-time data visualization and user
+              experience.
+            </span>
+
+            <span className="mb-3">
+              implemented driver documentation tracking and vehicle monitoring
+              dashboards with live data updates.
+            </span>
+            <span className="mb-3">
+              designed and developed intuitive user interfaces for both internal
+              staff and external clients
+            </span>
+            <span className="mb-1">
+              optimized application performance for handling real-time logistics
+              data streams
+            </span>
             <span style={{ fontSize: "18px" }} className="fw-semibold">
-              Logiports
+              at Logiports
             </span>
           </h4>
 
@@ -294,23 +309,30 @@ function App() {
 
         <div className="d-flex mt-4 flex-md-row flex-column row">
           <h4 className="spacing-0 col-md-8 d-flex flex-column fw-normal">
-            customizable order manager for apparel wholesale company
-            <span style={{ fontSize: "18px" }} className="fw-semibold">
-              Rubik Solutions
+            <span className="mb-3">
+              frontend development team coordination and management, task
+              assignment, definition of implementation approaches and
+              development workflows, and establishment of coding standards
             </span>
-          </h4>
-
-          <span className="spacing-0 col-md-4">
-            html, css, bootstrap, react, axios, api rest, serve, git, github
-          </span>
-        </div>
-
-        <div className="d-flex mt-4 flex-md-row flex-column pb-5 row">
-          <h4 className="spacing-0 col-md-8 d-flex flex-column fw-normal">
-            carrier management system for access to industrial plant,
-            documentation control of drivers and vehicles
+            <span className="mb-3">
+              developed and maintained a carrier management system for
+              industrial plant access control, implementing driver and vehicle
+              documentation workflows, creating reusable UI components and
+              integrating RESTful APIs
+            </span>
+            <span className="mb-3">
+              built a customizable order management platform for a wholesale
+              apparel company
+            </span>
+            <span className="mb-3">
+              collaborated with cross-functional teams using SCRUM methodology
+              to deliver features on schedule
+            </span>
+            <span className="mb-1">
+              translated Figma designs into pixel-perfect, responsive interfaces
+            </span>
             <span style={{ fontSize: "18px" }} className="fw-semibold">
-              Rubik Solution
+              at Rubik Solutions
             </span>
           </h4>
 
