@@ -129,7 +129,7 @@ function App() {
             src="/images/Blob-m3.svg"
             alt="lightblue blob"
             className="position-absolute img-fluid levitation"
-            style={{ zIndex: -1, top: "-10px" }}
+            style={{ zIndex: -1, top: "-25px" }}
           />
         </div>
 
