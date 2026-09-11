@@ -128,8 +128,8 @@ function App() {
           <img
             src="/images/Blob-m3.svg"
             alt="lightblue blob"
-            className="position-absolute top-0 img-fluid levitation"
-            style={{ zIndex: -1 }}
+            className="position-absolute img-fluid levitation"
+            style={{ zIndex: -1, top: "-10px" }}
           />
         </div>
 
@@ -265,8 +265,8 @@ function App() {
           <img
             src="/images/Blob-m6.svg"
             alt="lightblue blob"
-            className="position-absolute top-0 img-fluid levitation"
-            style={{ zIndex: -1 }}
+            className="position-absolute  img-fluid levitation"
+            style={{ zIndex: -1, top: "-15px" }}
           />
         </div>
 
