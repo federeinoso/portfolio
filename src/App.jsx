@@ -28,59 +28,82 @@ function App() {
         className="d-flex justify-content-around py-5"
         style={{ marginTop: "5rem" }}
       >
-        <div className="d-flex flex-column position-relative">
-          <h1
-            className="fw-bolder spacing mt-3"
-            style={{
-              fontSize: "min(20vw, 6rem)",
-              zIndex: 10,
-            }}
-          >
-            federico
-          </h1>
+        <div className="d-flex flex-row w-100 justify-content-around align-items-center">
+          <div className="d-flex flex-column position-relative">
+            <h1
+              className="fw-bolder spacing mt-3"
+              style={{
+                fontSize: "min(20vw, 6rem)",
+                zIndex: 10,
+              }}
+            >
+              federico
+            </h1>
 
-          <h1
-            className="fw-bolder spacing ms-5 z-10"
-            style={{
-              fontSize: "min(20vw, 6rem)",
-              marginTop: "min(-3vw, -1.5rem)",
-              zIndex: 10,
-            }}
-          >
-            reinoso
-          </h1>
+            <h1
+              className="fw-bolder spacing ms-5 z-10"
+              style={{
+                fontSize: "min(20vw, 6rem)",
+                marginTop: "min(-3vw, -1.5rem)",
+                zIndex: 10,
+              }}
+            >
+              reinoso
+            </h1>
 
-          <img
-            src="/images/Blob.svg"
-            alt="violet blob"
-            className="position-absolute img-fluid levitation"
-            style={{
-              zIndex: 0,
-              width: "300px",
-            }}
-          />
-        </div>
+            <img
+              src="/images/Blob.svg"
+              alt="violet blob"
+              className="position-absolute img-fluid levitation"
+              style={{
+                zIndex: 0,
+                width: "300px",
+              }}
+            />
+          </div>
 
-        <div className="position-relative d-none d-sm-block">
-          <img src="/images/header-image.svg" alt="boy with computer" />
+          <div className="position-relative d-noned-sm-block py-3">
+            <img
+              src="/images/header-image.svg"
+              alt="boy with computer"
+              style={{
+                width: "280px",
+                height: "280px",
+              }}
+            />
+            <img
+              src="/images/icon1.svg"
+              alt="square levitating"
+              className="position-absolute icon1 levitation levitation-shadow"
+              style={{
+                width: "80px",
 
-          <img
-            src="/images/icon1.svg"
-            alt="square levitating"
-            className="position-absolute icon1 levitation levitation-shadow"
-          />
+                height: "80px",
+              }}
+            />
 
-          <img
-            src="/images/icon2.svg"
-            alt="square levitating"
-            className="position-absolute icon2 levitation levitation-shadow"
-          />
+            <img
+              src="/images/icon2.svg"
+              alt="square levitating"
+              className="position-absolute icon2 levitation levitation-shadow"
+              style={{
+                width: "70px",
 
-          <img
-            src="/images/icon3.svg"
-            alt="emoji levitating"
-            className="position-absolute icon3 levitation levitation-shadow"
-          />
+                height: "70px",
+              }}
+            />
+
+            <img
+              src="/images/icon3.svg"
+              alt="emoji levitating"
+              className="position-absolute icon3 levitation levitation-shadow"
+              style={{
+                width: "80px",
+
+                height: "80px",
+              }}
+            />
+          </div>
         </div>
       </section>
       {/* ABOUT */}
