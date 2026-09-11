@@ -55,7 +55,7 @@ function App() {
             </h1>
 
             <img
-              src="/images/Blob.svg"
+              src="/images/Blob-test.svg"
               alt="violet blob"
               className="position-absolute img-fluid levitation"
               style={{
@@ -65,45 +65,13 @@ function App() {
             />
           </div>
 
-          <div className="position-relative d-none d-md-block py-3">
+          <div className="position-relative d-none d-md-block">
             <img
-              src="/images/header-image.svg"
+              src="/images/main-svg.svg"
               alt="boy with computer"
               style={{
-                width: "280px",
-                height: "280px",
-              }}
-            />
-            <img
-              src="/images/icon1.svg"
-              alt="square levitating"
-              className="position-absolute icon1 levitation levitation-shadow"
-              style={{
-                width: "80px",
-
-                height: "80px",
-              }}
-            />
-
-            <img
-              src="/images/icon2.svg"
-              alt="square levitating"
-              className="position-absolute icon2 levitation levitation-shadow"
-              style={{
-                width: "70px",
-
-                height: "70px",
-              }}
-            />
-
-            <img
-              src="/images/icon3.svg"
-              alt="emoji levitating"
-              className="position-absolute icon3 levitation levitation-shadow"
-              style={{
-                width: "80px",
-
-                height: "80px",
+                width: "400px",
+                height: "400px",
               }}
             />
           </div>
@@ -143,7 +111,7 @@ function App() {
           </div>
 
           <img
-            src="/images/Blob2.svg"
+            src="/images/Blob-m1.svg"
             alt="green blob"
             className="position-absolute end-0 mt-4 mt-sm-0 img-fluid levitation"
             style={{ zIndex: -1 }}
@@ -158,7 +126,7 @@ function App() {
           </span>
 
           <img
-            src="/images/Blob3.svg"
+            src="/images/Blob-m3.svg"
             alt="lightblue blob"
             className="position-absolute top-0 img-fluid levitation"
             style={{ zIndex: -1 }}
@@ -213,7 +181,7 @@ function App() {
           </span>
 
           <img
-            src="/images/Blob4.svg"
+            src="/images/Blob-m4.svg"
             alt="yellow blob"
             className="position-absolute me-1 me-sm-5 top-0 img-fluid levitation"
             style={{ zIndex: -1 }}
@@ -295,7 +263,7 @@ function App() {
           </span>
 
           <img
-            src="/images/Blob6.svg"
+            src="/images/Blob-m6.svg"
             alt="lightblue blob"
             className="position-absolute top-0 img-fluid levitation"
             style={{ zIndex: -1 }}
@@ -389,7 +357,7 @@ function App() {
           </span>
 
           <img
-            src="/images/Blob5.svg"
+            src="/images/Blob-m5.svg"
             alt="pink blob"
             className="position-absolute top-0 img-fluid levitation"
             style={{ zIndex: -1 }}
