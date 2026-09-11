@@ -1,6 +1,9 @@
 function App() {
   return (
-    <main className="container px-4">
+    <main
+      className="container px-4 position-relative"
+      style={{ overflow: "hidden" }}
+    >
       {/* HEADER */}
       <header className="d-flex flex-column flex-md-row justify-content-md-between fw-bold fs-3 mt-5">
         <div className="d-flex flex-column flex-md-row">
@@ -465,6 +468,18 @@ function App() {
 
         <h4 className="mx-auto">📍 italia</h4>
       </section>
+      <div className="d-flex w-100 justify-content-center pt-4">
+        <img
+          src="/images/sol.webp"
+          alt="sun"
+          className="position-absolute"
+          style={{
+            width: "100px",
+            height: "100px",
+            bottom: "-50px",
+          }}
+        />
+      </div>
     </main>
   );
 }
