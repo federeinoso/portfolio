@@ -62,7 +62,7 @@ function App() {
             />
           </div>
 
-          <div className="position-relative d-noned-sm-block py-3">
+          <div className="position-relative d-none d-sm-block py-3">
             <img
               src="/images/header-image.svg"
               alt="boy with computer"
