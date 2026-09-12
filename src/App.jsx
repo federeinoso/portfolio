@@ -194,7 +194,7 @@ function App() {
             <a href="http://fm-ecommerce-sneakers.vercel.app/">
               <img
                 src="/images/projects/project4.png"
-                className="w-100 mb-4"
+                className="w-100 mb-4 mobile-card"
                 alt="project screenshot"
               />
             </a>
@@ -202,7 +202,7 @@ function App() {
             <a href="http://tenzies-game-pi.vercel.app/">
               <img
                 src="/images/projects/project6.png"
-                className="w-100 mb-4"
+                className="w-100 mb-4 mobile-card"
                 alt="project screenshot"
               />
             </a>
@@ -210,7 +210,7 @@ function App() {
             <a href="https://rock-paper-scissors-federeinoso.vercel.app/">
               <img
                 src="/images/projects/project7.png"
-                className="w-100 mb-4"
+                className="w-100 mb-md-4 mb-2 mobile-card"
                 alt="project screenshot"
               />
             </a>
@@ -221,7 +221,7 @@ function App() {
             <a href="https://federeinoso.github.io/digitalNAO-reto1/">
               <img
                 src="/images/projects/project2.png"
-                className="w-100 mb-4"
+                className="w-100 mb-4 mobile-card"
                 alt="project screenshot"
               />
             </a>
@@ -229,7 +229,7 @@ function App() {
             <a href="https://federeinoso.github.io/TOP-weather-app/">
               <img
                 src="/images/projects/project3.png"
-                className="w-100 mb-4"
+                className="w-100 mb-md-4 mb-0 mobile-card"
                 alt="project screenshot"
               />
             </a>
@@ -240,7 +240,7 @@ function App() {
             <a href="https://fm-room-homepage-bay.vercel.app/">
               <img
                 src="/images/projects/project5.png"
-                className="w-100 mb-4"
+                className="w-100 mb-4 mobile-card"
                 alt="project screenshot"
               />
             </a>
@@ -248,7 +248,7 @@ function App() {
             <a href="https://logiports.com.ar/">
               <img
                 src="/images/projects/project1.png"
-                className="w-100 mb-4"
+                className="w-100 mb-4 mobile-card"
                 alt="project screenshot"
               />
             </a>

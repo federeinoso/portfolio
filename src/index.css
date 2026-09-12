@@ -58,6 +58,20 @@ h6 {
   font-family: "Inter", sans-serif;
 }
 
+@media (max-width: 767px) {
+  .mobile-card {
+    height: 300px;
+    object-fit: cover;
+    object-position: center top;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    border-radius: 19px;
+  }
+}
+
+#projects img {
+  border-radius: 19px;
+}
+
 .btn-mode {
   background-color: white;
   color: black;
