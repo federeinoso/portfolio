@@ -55,7 +55,7 @@ function App() {
             </h1>
 
             <img
-              src="/images/Blob-test.svg"
+              src="/images/Blob-m0.svg"
               alt="violet blob"
               className="position-absolute img-fluid levitation"
               style={{
