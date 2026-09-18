@@ -436,10 +436,9 @@ function App() {
         <h4 className="mx-auto">📍 italia</h4>
       </section>
       <div
-        className="d-flex justify-content-center"
+        className="img-footer-container"
         style={{
           height: "50px",
-
           overflow: "hidden",
         }}
       >

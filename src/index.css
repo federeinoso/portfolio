@@ -7,6 +7,10 @@
   text-rendering: optimizeLegibility;
 }
 
+main {
+  overflow: hidden;
+}
+
 body,
 html {
   font-family: "Inter", sans-serif;
@@ -225,4 +229,20 @@ a:not([href]):not([class]),
 a:not([href]):not([class]):hover {
   color: inherit;
   text-decoration: none;
+}
+
+.img-footer {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+}
+
+.img-footer-container {
+  height: 50px;
+
+  overflow: hidden;
+
+  display: flex;
+
+  justify-content: center;
 }
