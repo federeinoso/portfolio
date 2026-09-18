@@ -289,17 +289,19 @@ function App() {
               optimized application performance for handling real-time logistics
               data streams
             </span>
+          </h4>
+
+          <div className="col-md-4 d-flex flex-column spacing-0">
+            <span>
+              html, css, bootstrap, react, react-router-dom, axios, formik, yup,
+              prime react, react-bootstrap, api rest, abm, git, github
+            </span>
             <span style={{ fontSize: "18px" }} className="fw-semibold">
               at Logiports
             </span>
-          </h4>
-
-          <span className="spacing-0 col-md-4">
-            html, css, bootstrap, react, react-router-dom, axios, formik, yup,
-            prime react, react-bootstrap, api rest, abm, git, github
-          </span>
+          </div>
         </div>
-
+        <div className="divider"></div>
         <div className="d-flex mt-4 flex-md-row flex-column row">
           <h4 className="spacing-0 col-md-8 d-flex flex-column fw-normal">
             <span className="mb-3">
@@ -324,15 +326,17 @@ function App() {
             <span className="mb-1">
               translated Figma designs into pixel-perfect, responsive interfaces
             </span>
+          </h4>
+
+          <div className="col-md-4 d-flex flex-column spacing-0">
+            <span>
+              html, css, bootstrap, react, react-router-dom, axios, api rest,
+              abm, git, azure
+            </span>
             <span style={{ fontSize: "18px" }} className="fw-semibold">
               at Rubik Solutions
             </span>
-          </h4>
-
-          <span className="spacing-0 col-md-4">
-            html, css, bootstrap, react, react-router-dom, axios, api rest, abm,
-            git, azure
-          </span>
+          </div>
         </div>
       </section>
       {/* CONTACT */}
@@ -433,7 +437,7 @@ function App() {
           </a>
         </div>
 
-        <h4 className="mx-auto">📍 italia</h4>
+        <h4 className="mx-auto">📍 milano, italia</h4>
       </section>
       <div
         className="img-footer-container"

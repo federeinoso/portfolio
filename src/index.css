@@ -64,7 +64,7 @@ h6 {
 
 @media (max-width: 767px) {
   .mobile-card {
-    height: 300px;
+    height: 200px;
     object-fit: cover;
     object-position: center top;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
@@ -107,6 +107,11 @@ h6 {
 }
 .spacing-0 {
   letter-spacing: -1px;
+}
+.divider {
+  height: 1px;
+  background-color: rgb(224, 219, 219);
+  margin: 20px 0px 10px 0px;
 }
 .neg-mt {
   margin-top: -50px;
