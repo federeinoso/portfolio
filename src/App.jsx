@@ -1,27 +1,26 @@
+import BubbleText from "./components/BubbleText";
+
 function App() {
   return (
-    <main
-      className="container px-4 position-relative"
-      style={{ overflow: "hidden" }}
-    >
+    <main className="container px-4 position-relative">
       {/* HEADER */}
       <header className="d-flex flex-column flex-md-row justify-content-md-between fw-bold fs-3 mt-5">
         <div className="d-flex flex-column flex-md-row">
           <a href="#skills" className="me-2 me-sm-5 mb-2 mb-sm-0">
-            skills
+            <BubbleText text="skills" />
           </a>
 
           <a href="#projects" className="me-2 me-sm-5 mb-2 mb-sm-0">
-            projects
+            <BubbleText text="projects" />
           </a>
 
           <a href="#work" className="me-2 me-sm-5 mb-4 mb-sm-0">
-            works
+            <BubbleText text="works" />
           </a>
         </div>
         <div>
           <a href="#contact" id="btn" className="px-2 rounded-3 btn-light">
-            contact me!
+            <BubbleText text="contact me!" />
           </a>
         </div>
       </header>
@@ -436,17 +435,15 @@ function App() {
 
         <h4 className="mx-auto">📍 italia</h4>
       </section>
-      <div className="d-flex w-100 justify-content-center pt-4">
-        <img
-          src="/images/sol.webp"
-          alt="sun"
-          className="position-absolute"
-          style={{
-            width: "100px",
-            height: "100px",
-            bottom: "-50px",
-          }}
-        />
+      <div
+        className="d-flex justify-content-center"
+        style={{
+          height: "50px",
+
+          overflow: "hidden",
+        }}
+      >
+        <img src="/images/sol.webp" alt="sun" className="img-footer" />
       </div>
     </main>
   );
