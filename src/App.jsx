@@ -46,7 +46,7 @@ function App() {
               className="fw-bolder spacing ms-5 z-10"
               style={{
                 fontSize: "min(20vw, 6rem)",
-                marginTop: "clamp(-45px, -8vw, -20px)",
+                marginTop: "clamp(-45px, -8vw, -40px)",
                 zIndex: 10,
               }}
             >
