@@ -1,0 +1,17 @@
+.hoverText {
+  transition: 0.35s color;
+}
+
+.hoverText:hover {
+  color: rgb(219, 223, 235);
+}
+
+/* To the right */
+.hoverText:hover + .hoverText {
+  color: rgb(163, 164, 171);
+}
+
+/* To the left */
+.hoverText:has(+ .hoverText:hover) {
+  color: rgb(163, 164, 171);
+}
