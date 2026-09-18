@@ -201,7 +201,7 @@ function App() {
             <a href="http://tenzies-game-pi.vercel.app/">
               <img
                 src="/images/projects/project6.png"
-                className="w-100 mb-4 mobile-card"
+                className="w-100 mb-4 mobile-card card-special"
                 alt="project screenshot"
               />
             </a>
@@ -228,7 +228,7 @@ function App() {
             <a href="https://federeinoso.github.io/TOP-weather-app/">
               <img
                 src="/images/projects/project3.png"
-                className="w-100 mb-md-4 mb-0 mobile-card"
+                className="w-100 mb-md-4 mb-0 mobile-card card-special"
                 alt="project screenshot"
               />
             </a>
