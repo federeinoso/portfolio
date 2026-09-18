@@ -62,7 +62,7 @@ h6 {
   font-family: "Inter", sans-serif;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
   .mobile-card {
     height: clamp(200px, 35vw, 350px);
     object-fit: cover;
