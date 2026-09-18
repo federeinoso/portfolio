@@ -1,4 +1,4 @@
-import BubbleText from "./components/BubbleText";
+import BubbleText from "./components/BubbleText.jsx";
 
 function App() {
   return (
