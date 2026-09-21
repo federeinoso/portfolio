@@ -6,7 +6,6 @@ const BubbleText = ({ text }) => {
       {text.split("").map((child, idx) => (
         <span className="hoverText" key={idx}>
           {child}
-          {console.log(child)}
         </span>
       ))}
     </span>

@@ -1,8 +1,10 @@
 import BubbleText from "./components/BubbleText.jsx";
+import ClickFireworks from "./components/ClickFireworks.jsx";
 
 function App() {
   return (
     <main className="container px-4 position-relative">
+      <ClickFireworks />
       {/* HEADER */}
       <header className="d-flex flex-column flex-md-row justify-content-md-between fw-bold fs-3 mt-5">
         <div className="d-flex flex-column flex-md-row">
