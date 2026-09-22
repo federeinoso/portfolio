@@ -1,5 +1,6 @@
 import BubbleText from "./components/BubbleText.jsx";
 import ClickFireworks from "./components/ClickFireworks.jsx";
+import StopMotion from "./components/StopMotion/StopMotion.jsx";
 
 function App() {
   return (
@@ -34,27 +35,8 @@ function App() {
       >
         <div className="d-flex flex-row w-100 justify-content-around align-items-center">
           <div className="d-flex flex-column position-relative">
-            <h1
-              className="fw-bolder spacing mt-3"
-              style={{
-                fontSize: "min(20vw, 6rem)",
-                zIndex: 10,
-              }}
-            >
-              federico
-            </h1>
-
-            <h1
-              className="fw-bolder spacing ms-5 z-10"
-              style={{
-                fontSize: "min(20vw, 6rem)",
-                marginTop: "clamp(-45px, -8vw, -40px)",
-                zIndex: 10,
-              }}
-            >
-              reinoso
-            </h1>
-
+            <StopMotion />
+            {/* 
             <img
               src="/images/Blob-m0.svg"
               alt="violet blob"
@@ -63,7 +45,7 @@ function App() {
                 zIndex: 0,
                 width: "300px",
               }}
-            />
+            /> */}
           </div>
 
           <div className="position-relative d-none d-md-block">
