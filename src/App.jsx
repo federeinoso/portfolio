@@ -144,7 +144,7 @@ function App() {
           <h2>figma</h2>
 
           <div className="d-flex align-items-baseline">
-            <h2>methodologys</h2>
+            <h2>methodologies</h2>
 
             <span className="ms-2 spacing-0">freelancer, scrum, devops</span>
           </div>
