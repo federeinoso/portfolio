@@ -69,7 +69,7 @@ function App() {
           <div className="position-relative d-none d-md-block">
             <img
               src="/images/main-svg.svg"
-              alt="boy with computer"
+              alt="Illustration of a developer working at a computer"
               style={{
                 width: "400px",
                 height: "400px",
@@ -196,7 +196,7 @@ function App() {
               <img
                 src="/images/projects/project4.png"
                 className="w-100 mb-4 mobile-card"
-                alt="project screenshot"
+                alt="E-commerce sneaker store with product gallery and shopping cart"
               />
             </a>
 
@@ -204,7 +204,7 @@ function App() {
               <img
                 src="/images/projects/project6.png"
                 className="w-100 mb-4 mobile-card card-special"
-                alt="project screenshot"
+                alt="Tenzies dice game with a grid of ten dice and a roll counter"
               />
             </a>
 
@@ -212,7 +212,7 @@ function App() {
               <img
                 src="/images/projects/project7.png"
                 className="w-100 mb-md-4 mb-2 mobile-card"
-                alt="project screenshot"
+                alt="Rock paper scissors game showing player choices and live score"
               />
             </a>
           </div>
@@ -223,7 +223,7 @@ function App() {
               <img
                 src="/images/projects/project2.png"
                 className="w-100 mb-4 mobile-card"
-                alt="project screenshot"
+                alt="Example of a personal landing page"
               />
             </a>
 
@@ -231,7 +231,7 @@ function App() {
               <img
                 src="/images/projects/project3.png"
                 className="w-100 mb-md-4 mb-0 mobile-card card-special"
-                alt="project screenshot"
+                alt="Weather app showing current temperature and a 5-day forecast by city"
               />
             </a>
           </div>
@@ -242,7 +242,7 @@ function App() {
               <img
                 src="/images/projects/project5.png"
                 className="w-100 mb-4 mobile-card"
-                alt="project screenshot"
+                alt="E-commerce landing page with hero slider and side navigation"
               />
             </a>
 
@@ -250,7 +250,7 @@ function App() {
               <img
                 src="/images/projects/project1.png"
                 className="w-100 mb-4 mobile-card"
-                alt="project screenshot"
+                alt="Logiports landing page"
               />
             </a>
           </div>
