@@ -274,22 +274,20 @@ function App() {
         <div className="d-flex flex-md-row flex-column row">
           <h4 className="spacing-0 col-md-8 d-flex flex-column fw-normal">
             <span className="mb-3">
-              engineered an operational management system for port logistics
-              services, focusing on real-time data visualization and user
-              experience
+              engineered an operational management system for port logistics,
+              centered on real-time data visualization and UX
             </span>
 
             <span className="mb-3">
-              implemented driver documentation tracking and vehicle monitoring
+              built driver-documentation tracking and vehicle-monitoring
               dashboards with live data updates
             </span>
             <span className="mb-3">
-              designed and developed intuitive user interfaces for both internal
-              staff and external clients
+              designed intuitive interfaces for both internal staff and external
+              clients
             </span>
             <span className="mb-1">
-              optimized application performance for handling real-time logistics
-              data streams
+              optimized performance for real-time logistics data streams
             </span>
           </h4>
 
@@ -307,23 +305,20 @@ function App() {
         <div className="d-flex mt-4 flex-md-row flex-column row">
           <h4 className="spacing-0 col-md-8 d-flex flex-column fw-normal">
             <span className="mb-3">
-              frontend development team coordination and management, task
-              assignment, definition of implementation approaches and
-              development workflows, and establishment of coding standards
+              coordinated the frontend team: task assignment, implementation
+              approaches, workflows and coding standards
             </span>
             <span className="mb-3">
-              developed and maintained a carrier management system for
-              industrial plant access control, implementing driver and vehicle
-              documentation workflows, creating reusable UI components and
-              integrating RESTful APIs
+              developed and maintained a carrier-management system for
+              industrial plant access control (driver/vehicle documentation
+              workflows)
             </span>
             <span className="mb-3">
-              built a customizable order management platform for a wholesale
+              built a customizable order-management platform for a wholesale
               apparel company
             </span>
             <span className="mb-3">
-              collaborated with cross-functional teams using SCRUM methodology
-              to deliver features on schedule
+              created reusable UI components and integrated RESTful APIs
             </span>
             <span className="mb-1">
               translated Figma designs into pixel-perfect, responsive interfaces
