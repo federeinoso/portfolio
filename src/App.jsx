@@ -296,9 +296,19 @@ function App() {
               html, css, bootstrap, react, react-router-dom, axios, formik, yup,
               prime react, react-bootstrap, api rest, abm, git, github
             </span>
-            <span style={{ fontSize: "18px" }} className="fw-semibold">
-              at Logiports
-            </span>
+            <div className="d-flex align-items-center">
+              <span style={{ fontSize: "18px" }} className="fw-semibold">
+                at Logiports
+              </span>
+              <img
+                src="/images/logiports.svg"
+                alt="Logiports logo"
+                className="mx-1"
+                style={{
+                  width: "23px",
+                }}
+              />
+            </div>
           </div>
         </div>
         <div className="divider"></div>
@@ -330,9 +340,19 @@ function App() {
               html, css, bootstrap, react, react-router-dom, axios, api rest,
               abm, git, azure
             </span>
-            <span style={{ fontSize: "18px" }} className="fw-semibold">
-              at Rubik Solutions
-            </span>
+            <div className="d-flex align-items-center">
+              <span style={{ fontSize: "18px" }} className="fw-semibold">
+                at Rubik Solutions
+              </span>
+              <img
+                src="/images/rubik.png"
+                alt="Rubik Solutions logo"
+                className="mx-2"
+                style={{
+                  width: "20px",
+                }}
+              />
+            </div>
           </div>
         </div>
       </section>
